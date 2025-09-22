@@ -4,14 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SkyCast Weather App</title>
-    <link rel="stylesheet" href="./style.css"
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="card">
       <div class="search">
         <input type="text" placeholder="Enter City Name" spellcheck="false" />
-        <button><img src="./Images/icons8-search-50.png"</button>
+        <button>
+          <img src="./Images/icons8-search-50.png" alt="Search" />
+        </button>
+      </div>
+
+      <div class="weather">
+        <img src="./Images/icons8-rain-white.png" class="weather-icon" />
+        <h1 class="temp">N/A</h1>
+        <h2 class="city">Srinagar</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="./Images/icons8-humidity-100.png" alt="Humidity" />
+            <div>
+              <p class="humidity">n/a</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./Images/icons8-wind-white.png" alt="Wind Speed" />
+            <div>
+              <p class="wind">n/a</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
